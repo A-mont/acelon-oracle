@@ -88,7 +88,7 @@ If your contract requires certificates (to validate the authenticity of signers)
 
 ### 3.  Call update_price_feeds in the UI
 
-1. Go to the update_price_feeds function in your dApp frontend (Gear, Polkadot.js Apps, etc).
+1. Go to the update_price_feeds function in your dApp frontend (Gear IDEA).
 
 2. In the update_data field, paste your packed data example:
 ```json
