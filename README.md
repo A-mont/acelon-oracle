@@ -74,7 +74,6 @@ If your contract requires certificates (to validate the authenticity of signers)
      ```
 3. Submit a transaction for each certificate you need to add.
 
-> **Tip:** Certificates are usually needed to verify that a particular public key is authorized by a recognized authority, adding an extra security layer.
 
 ### c) Configure the Signature Threshold
 
