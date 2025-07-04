@@ -1,4 +1,12 @@
-# Acelon Oracle Gear smart contract Tutorial
+# Tutorial: Using the Acelon Oracle on Vara Network
+
+## 🦾 How to Update Price Feeds on Vara with the Acelon Oracle Client
+
+This step-by-step guide explains how to update asset prices (e.g., VARA/USDT) using an oracle contract on Vara Network, following the Acelon standard and including trusted signers, certificates, and signature threshold.
+
+---
+
+## 1. Deploy Your Oracle Contract on Vara Network
 
 This smart contract implements the logic to receive price updated from [Acelon](https://acelon.io/) oracles.
 
@@ -35,14 +43,6 @@ The core functionality the contract offers is the `update_price_feeds` call, whi
 See the test in [gtest.rs](tests/gtest.rs) for an example.
 
 The contract also stores a list of valid signers (Oracle addresses) and certificate hashes, only prices provided by the those Oracles (signers) and certificates will be accepted.
-
-# 🦾 How to Update Price Feeds on Vara with the Acelon Oracle Client
-
-This step-by-step guide explains how to update asset prices (e.g., VARA/USDT) using an oracle contract on Vara Network, following the Acelon standard and including trusted signers, certificates, and signature threshold.
-
----
-
-## 1. Deploy Your Oracle Contract on Vara
 
 - Deploy your contract (e.g., via Gear Frontend or CLI).
 - Save your deployed contract’s address (`program_id`).
