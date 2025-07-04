@@ -12,6 +12,8 @@ This smart contract implements the logic to receive price updated from [Acelon](
 
 The contract is written using [Sails and Gear](https://wiki.vara.network/docs/build), which is the smart contract technology supported by the [Vara Network](https://vara.network/).
 
+
+
 ## Build
 
 ### Prerequisites
@@ -35,6 +37,14 @@ cargo test
 ## Deploy
 
 For detailed steps, please see the [Upload program](https://wiki.vara.network/docs/build/deploy) page on the Vara wiki.
+
+## Open Contract on Gitpod
+
+<p align="center">
+  <a href="https://gitpod.io/#https://github.com/Vara-Lab/acelon-oracle-tutorial.git" target="_blank">
+    <img src="https://gitpod.io/button/open-in-gitpod.svg" width="240" alt="Gitpod">
+  </a>
+</p>
 
 ## Usage
 
